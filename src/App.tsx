@@ -65,6 +65,11 @@ const DEFAULT_AUDREY_BUBBLES: BubblePreset[] = [
 // Default collective graduation messages
 const DEFAULT_GROUP_MESSAGES: GroupMessage[] = [
   {
+    id: 'm-hayden',
+    sender: 'Hayden',
+    text: '畢業大個啦，好好地做人啦~🥹🥹🙂‍↕️🙂‍↕️👍🏻👍🏻💪🏻💪🏻',
+  },
+  {
     id: 'm-coco',
     sender: 'Coco',
     text: '點解你唔要橫幅！！！🥹anyways happy graduation & 1114 happy birthday🥳🥳🥳我人生第一個web app就咁樣俾咗你係咪好感動www🧘🏻‍♀️努力搵工返工做gym，同埋多啲光遇搵我跑圖啊🥳話說你下年生日想唔想要啲新奇嘢我同ruby佢哋prep一下😁。',
@@ -80,16 +85,14 @@ const DEFAULT_GROUP_MESSAGES: GroupMessage[] = [
     text: 'Happy graduation!🎉搵工加油,搵多D錢再約埋去多幾次日本👍千奇唔好學久留美炒美日圓fx😂',
   },
   {
-    id: 'm1',
-    text: 'Happy Graduation Audrey!! Thank you for always being the best study buddy and bringing so much warmth and laughter to our uni days. Wishing you endless success!',
+    id: 'm-anthony',
+    sender: 'Anthony',
+    text: 'Happy Graduation，祝你“前程似錦，萬事勝意！”🎓🎉',
   },
   {
-    id: 'm2',
-    text: '28 Nov is finally here! So proud of everything you have achieved. Let’s celebrate properly after the ceremony!',
-  },
-  {
-    id: 'm3',
-    text: 'Congrats grad! No more late-night deadlines. Wishing you all the best in your next chapter!',
+    id: 'm-cherry',
+    sender: 'Cherry',
+    text: '畢業快樂！祝你 “長風破浪會有時，直掛雲帆濟滄海”！🎓🎓🎓🎓',
   },
 ];
 
@@ -100,7 +103,7 @@ const RANDOM_CONGRATS = [
   'Audrey Yo! Audrey Hey! Audrey so Awesome, Audrey Yay!',
   'Oh My God Audrey, why are you so strong?!',
   'Audrey was released from her 4 year sentence.',
-  '28 Nov belongs to our favorite graduate, Audrey!',
+  'Yeeeeeeeeeeeeeeaaaaaaaaaaaaaaaaaaaaaaaaaaaaaah!!!!!',
   'The Audrey of the opera is there, inside my heart!',
   'Plot twist: Audrey graduated',
   'Three cheers for Audrey! Hip hip hooray!',
@@ -114,6 +117,7 @@ const RANDOM_CONGRATS = [
   'Do you want a MTR advertisement for your birthday next time?',
   'Is this web app cool? I made it hahahahaha',
   'Audrey sensei can you teach me english?',
+  'Audrey sensei can you teach me japanese? Audrey says Hai Hai!',
   'Good morning, Good afternoon, and Good evening, do you miss us today?',
   'Do you see the salary of yylam? What the hell is that?'
 ];
